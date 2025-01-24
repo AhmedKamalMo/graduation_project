@@ -21,6 +21,7 @@
 
 .hover:hover {
     background-color: rgba($color: gray, $alpha: .3);
+
 }
 
 .imgOpacity:hover {
@@ -149,7 +150,7 @@
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    border-radius:50% ;
+    border-radius: 60%;
     background-color: black;
 }
 
@@ -213,3 +214,36 @@ button.switch-month:active {
 
 
 // 
+.progress {
+    height: 8px;
+}
+
+.svgIcon {
+    margin-top: 40px;
+    display: block;
+    height: 35px;
+    width: 35px;
+    fill: currentcolor;
+}
+// 
+.review-card {
+    border: none;
+}
+
+.review-header {
+    font-weight: bold;
+}
+
+.rating {
+    color: #FFD700;
+    /* لون النجوم */
+    font-size: 15px;
+}
+
+.review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
