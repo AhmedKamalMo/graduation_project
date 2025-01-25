@@ -1,0 +1,177 @@
+.dropdown-menu-scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.link-privacy {
+  color: rgba(0, 0, 0, 0.786);
+  font-size: 0.8rem;
+}
+
+.link-privacy:hover {
+  color: black;
+}
+
+.btnn {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.btnn2 {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.btnn2:focus {
+  border-color: #f11d44 !important;
+  box-shadow: 0 0 0 0.25rem rgba(241, 29, 68, 0.25);
+}
+
+.dropdown-container {
+  border-radius: 15px 15px 0px 0px;
+  margin: 0px !important;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+.butons {
+  background-color: #f11d44;
+  border: none;
+  color: #eee;
+}
+
+.butons:hover {
+  background-color: #d72445;
+  border: none;
+}
+
+.butons:focus {
+  background-color: #d72445;
+  border: none;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.divider::before {
+  margin-right: 0.25em;
+}
+
+.divider::after {
+  margin-left: 0.25em;
+}
+
+#dropdownButton:hover {
+  border: none;
+}
+
+.btn.show {
+  border: none;
+}
+
+.titleF {
+  font-size: 0.9rem;
+  color: rgb(123, 121, 121);
+}
+
+.title {
+  font-size: 0.9rem;
+  color: rgb(123, 121, 121);
+}
+
+.title:hover {
+  color: black;
+}
+
+.subscribe {
+  color: black;
+  border-color: black;
+} 
+.otp-input:focus {
+  border-color: #f11d44 !important;
+  box-shadow: 0 0 0 0.5rem rgba(241, 29, 68, 0.25);
+}
+
+#verifyOtpButton {
+  border: none;
+  background-color: #f11d44;
+}
+
+/* From Uiverse.io by DaniloMGutavo */
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox:checked ~ .checkmark {
+  background-color: #d72445;
+  box-shadow: 0 3px 7px rgba(33, 150, 243, 0.3);
+}
+
+.custom-checkbox:checked ~ .checkmark:after {
+  display: block;
+}
+
+@keyframes checkAnim {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 10px;
+  }
+}
+.custom-checkbox:checked ~ .checkmark:after {
+  animation: checkAnim 0.2s forwards;
+}/*# sourceMappingURL=login.css.map */
