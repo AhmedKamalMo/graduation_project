@@ -264,6 +264,89 @@ button.switch-month:active {
     width: 80px;
     height: 80px;
 }
-.star{
-    font-size:13px
+
+.star {
+    font-size: 13px
 }
+
+// .mine {
+//     width: 75% !important;
+// }
+
+
+
+@media screen and (max-width:768px) {
+    .mine {
+        width: 100% !important;
+    }
+
+    .slider {
+        display: block !important;
+    }
+
+    .imgs {
+        display: none;
+    }
+
+    .se1 {
+        span {
+            display: none !important;
+        }
+
+        h4 {
+            display: none !important;
+        }
+
+        h2 {
+            display: block !important;
+        }
+    }
+
+    .right-card {
+        display: none !important;
+    }
+
+    #calendar_second {
+        display: none !important;
+    }
+
+    .comment,
+    .detials ,.right-f,.card-innormal{
+        display: none !important;
+    }
+
+    #reviewsCarousel,.card-inresponsive {
+        display: block;
+    }
+
+    .coustem-button {
+        button {
+            width: 100%;
+        }
+
+        a {
+            text-align: center;
+        }
+    }
+}
+
+// comment slider
+.review-card {
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+// 
