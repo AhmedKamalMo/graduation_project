@@ -248,10 +248,18 @@ button.switch-month:active {
   font-size: 13px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
   .mine {
     width: 100% !important;
   }
+  .card-inresponsive {
+    display: block !important;
+  }
+  .card-innormal {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
   .slider {
     display: block !important;
   }
@@ -274,10 +282,13 @@ button.switch-month:active {
     display: none !important;
   }
   .comment,
-  .detials, .right-f, .card-innormal {
+  .detials,
+  .right-f,
+  .card-innormal {
     display: none !important;
   }
-  #reviewsCarousel, .card-inresponsive {
+  #reviewsCarousel,
+  .card-inresponsive {
     display: block;
   }
   .coustem-button button {
