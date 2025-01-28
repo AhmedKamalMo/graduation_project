@@ -1,6 +1,6 @@
 .img-bu {
-    top: 470px;
-    left: 87%;
+    bottom: 2%;
+    right: 2%;
     position: absolute;
 }
 
@@ -251,4 +251,19 @@ button.switch-month:active {
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+}
+
+// section 4
+
+.custom_card {
+    // border: 1px solid black;
+    border-radius: 5%;
+}
+
+.userImg2 {
+    width: 80px;
+    height: 80px;
+}
+.star{
+    font-size:13px
 }

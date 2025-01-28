@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .img-bu {
-  top: 470px;
-  left: 87%;
+  bottom: 2%;
+  right: 2%;
   position: absolute;
 }
 
@@ -233,4 +233,17 @@ button.switch-month:active {
   -o-object-fit: cover;
      object-fit: cover;
   margin-right: 10px;
+}
+
+.custom_card {
+  border-radius: 5%;
+}
+
+.userImg2 {
+  width: 80px;
+  height: 80px;
+}
+
+.star {
+  font-size: 13px;
 }/*# sourceMappingURL=index.css.map */
