@@ -46,7 +46,7 @@
 }
 
 .custom-edit {
-  top: 20px;
+  top: 110px;
 }
 
 .ftco-section {
@@ -221,7 +221,7 @@ button.switch-month:active {
 }
 
 .rating {
-  color: #FFD700;
+  color: #ffd700;
   /* لون النجوم */
   font-size: 15px;
 }
@@ -231,7 +231,7 @@ button.switch-month:active {
   height: 50px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-right: 10px;
 }
 
@@ -314,4 +314,4 @@ button.switch-month:active {
 .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
