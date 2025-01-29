@@ -1,0 +1,208 @@
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+}
+
+.firstcont p {
+  font-size: 8rem;
+}
+@media (max-width: 768px) {
+  .firstcont p {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 576px) {
+  .firstcont p {
+    font-size: 3rem;
+  }
+}
+
+.header p {
+  font-size: 500px;
+}
+
+.container-fluid .btn {
+  background: linear-gradient(to left, #ce0e61 0%, #f42c55 100%);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .image-container {
+  position: relative;
+  width: 700px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .image-container .image {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.container .image-container .image-pink {
+  z-index: 1;
+  opacity: 0;
+  top: 100px;
+  left: 215px;
+  transform: rotate(-8deg);
+  animation: movePink 1s ease-in-out 0.5s forwards;
+}
+.container .image-container .image-top {
+  z-index: 2;
+  opacity: 0;
+  top: 30px;
+  left: -110px;
+  transform: rotate(6deg);
+  animation: movePink 1s ease-in-out forwards;
+}
+@media (max-width: 768px) {
+  .container .image-container {
+    width: 300px;
+    height: 350px;
+  }
+  .container .image-container .image-pink {
+    top: 80px;
+    left: 120px;
+  }
+  .container .image-container .image-top {
+    top: 10px;
+    left: -70px;
+  }
+}
+@media (max-width: 576px) {
+  .container .image-container {
+    width: 250px;
+    height: 300px;
+  }
+  .container .image-container .image-pink {
+    top: 50px;
+    left: 100px;
+  }
+  .container .image-container .image-top {
+    top: 5px;
+    left: -60px;
+  }
+}
+@keyframes movePink {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.giving {
+  margin-top: 20px;
+  text-align: center;
+}
+.giving .give {
+  font-size: 2.5rem;
+  color: #2b2025;
+}
+@media (max-width: 768px) {
+  .giving .give {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .giving .give {
+    font-size: 1.5rem;
+  }
+}
+.giving .para1 {
+  width: 65%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .giving .para1 {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .giving .para1 {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+.giving .para2 {
+  padding-top: 20px;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .giving .para2 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .giving .para2 {
+    font-size: 0.8rem;
+  }
+}
+.giving .buy-gift {
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .giving .buy-gift {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .giving .buy-gift {
+    font-size: 0.8rem;
+  }
+}
+
+.cont-videos .pick {
+  margin-top: 100px;
+}
+.cont-videos .video-container {
+  margin-bottom: 20px;
+}
+.cont-videos .video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.myCard .thecard {
+  background-color: #f7f7f7;
+}
+.myCard h2 {
+  font-size: 3rem;
+}
+.myCard button {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+}
+.myCard button:hover {
+  background-color: black;
+  color: white;
+}
+
+.accordion-header {
+  color: #ce0e61;
+}/*# sourceMappingURL=gift.css.map */
